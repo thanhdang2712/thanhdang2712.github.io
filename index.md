@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Summer 2020 DREU Project Site
+title: Summer 2023 DREU Project Site
 ---
 
 * TOC
@@ -8,15 +8,17 @@ title: Summer 2020 DREU Project Site
 
 ## About Me
 
-My info goes here.
+My name is Thanh (pronounced /θæŋ/, like "Tang" or "Thank" without the 'k'). I am a rising junior at Colgate University, majoring in Computer Science & minoring in Mathematics. I have had experience doing research on Machine Learning, Natural Language Processing, and those academic interests of mine have always been driven by a passion for innovation and the desire to create something meaningful. This summer, I am so grateful to be accepted into the DREU 2023 Program to conduct Software Engineering research!
+
+My hometown is Hanoi, Vietnam, and I'm always eager to share with you stories of my culture and people. My other hobbies include cooking and weightlifting. I am a Capricorn, INFJ, and food enthusiast!
 
 ## About My Mentor
 
-Mentor info goes here.
+I am advised by Dr. Michael D. Ernst, Professor at the Paul G. Allen Computer & Engineering School at the University of Washington. His website can be found at (https://homes.cs.washington.edu/~mernst/).
 
 ## About My Project
 
-Project description goes here.
+The 10-week research project will be from June 5 - August 13.
 
 [My Final Report](files/finalreport.pdf)
 
