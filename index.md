@@ -14,7 +14,7 @@ My hometown is Hanoi, Vietnam, and I'm always eager to share with you stories of
 
 ## About My Mentor
 
-I am advised by Dr. Michael D. Ernst ([homepage](https://homes.cs.washington.edu/~mernst/), Professor at the Paul G. Allen Computer & Engineering School at the University of Washington.
+I am advised by Dr. Michael D. Ernst ([homepage](https://homes.cs.washington.edu/~mernst/)), Professor at the Paul G. Allen Computer & Engineering School at the University of Washington.
 
 ## About My Project
 
