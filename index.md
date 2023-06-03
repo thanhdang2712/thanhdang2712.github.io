@@ -18,7 +18,7 @@ I am advised by [Dr. Michael Ernst](https://homes.cs.washington.edu/~mernst/), P
 
 ## About My Project
 
-The 10-week research project will be from June 5 - August 13.
+The 10-week research project will be from June 5 - August 13. The research topic and summer plan willbe set up on June 5.
 
 [My Final Report](files/finalreport.pdf)
 
