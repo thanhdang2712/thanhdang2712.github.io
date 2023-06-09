@@ -18,7 +18,8 @@ I am advised by [Dr. Michael Ernst](https://homes.cs.washington.edu/~mernst/), P
 
 ## About My Project
 
-The 10-week research project will be from June 5 - August 13. The research topic and summer plan willbe set up on June 5.
+### Project Title: An Empirical Evaluation of Commit-Untangling Tools
+A tangled code change is a commit containing multiple concerns, such as both a bug fix and a refactoring. Tangled code change induce a higher cognitive load in Software Engineering, making code reviews more costly and error-prone. While there exist untangling tools that automatically cluster code changes into distinct groups they have rarely been evaluated on real commits. Our project aims to address this research gap by proposing am evaluation pipeline for two untangling tools, SmartCommit and Flexeme, on real commits. We hope to evaluate the tool's respective untangling performance and gain insights into the significant features of tangled commits.
 
 [My Final Report](files/finalreport.pdf)
 
