@@ -1,0 +1,28 @@
+---
+layout: post
+title: Week 2
+---
+
+# Progress report: DREU Week 2
+
+## Previous Goals:
+- Merge all pull requests and resolve the remaining documentation issue on untangling_score.py
+- Put the two diagrams (for ground truth and evaluation pipeline) into the repository
+- Create an end-to-end test of the 5 repositories, for use as a regression test
+- Get the regression test running in continuous integration
+
+## Progress:
+- I reviewed Thomas' changes on my adding docstrings pull request and approved them. I also addressed Mike's review of these changes, which results in a second round of documentation review around the Rand Index computation.
+  - While the documentation across the 5 repos gave me a clearer understanding of the pipeline and led me to appreciate Thomas' design choices of (1) examining the VC original diff and (2) converting to dataframe/CSV file formats, I want to implement Mike's suggestion of keeping them in unidiff formats as long as possible throughout the evaluation framework. I thus made 2 diagrams for the ground truth construction and evaluation pipeline as a whole for coherence.
+  - I also created a unit test for the untangling_score.py and understood better how Rand Index is computed on the untangling methods' clusters.
+- The changes on documentation and diagrams have been passed through Mike and I, but need final review from Thomas to ensure correctness.
+- I wrote end-to-end tests for the tool using the 5-bug file and a script to check for installations and dependencies. I received Mike's code review and modified both files, but realized that the end-to-end tests might not work for Flexeme as it may not generate the exact same results on every run. Mike has helped me resolve this issue, but I need to ask for verification from Thomas.
+- I wanted to get the regression test on Github Actions but was slower than expected. I went into a rabbit hole while googling on testing & CI (and related terminology), and luckily Mike jumped in to help me debunk these concepts and gave me examples of how to use github workflows. I learned a lot and will try to act on this new knowledge next week to make more progress.
+- I wrote a ci.yml file to set up the tools on a fresh macos runner for GitHub actions.
+
+## Next Goals:
+- Resolve how to handle Flexeme's inconsistent clustering results and modify e2e tests
+- Write a draft of .yml file to install tools on MacOS for github workflows
+- Get the regression test running in continuous integration on Github Actions
+- Refactoring: Identify parts of the pipeline where unix diff can be used instead of CSV and implement if possible
+- Add new functionality: Implement tangled lines/hunks 
